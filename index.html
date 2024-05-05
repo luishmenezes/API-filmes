@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Filmes</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="consulta">
+        <h1 >Consulta de Filmes</h1>
+        <input type="text" id="searchInput" placeholder="Digite o título do filme">
+    <button onclick="searchMovies(document.getElementById('searchInput').value)">Buscar</button>
+    <div class="filmes">
+        <div id="movieList" class="listaFilmes"></div>
+        <div id="movieDetails" class="detalhesFilmes"></div>
+    </div>  
+    </div>
+
+    
+</body>
+</html>
